@@ -18,7 +18,9 @@
 database.yml
 
 # Ignore all logfiles and tempfiles.
+log/
 /log/*
+tmp/
 /tmp/*
 !/log/.keep
 !/tmp/.keep
@@ -120,3 +122,8 @@ Gemfile.lock
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 .rubocop-https?--*
+
+# General gitignore files
+/bin
+vendor/
+.DS_Store
